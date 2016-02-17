@@ -1,8 +1,13 @@
 {
   "name": "eq-session",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Session module for Eq applications",
   "author": "Kazuma Fujimaki <fujimaki@eq-inc.jp>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eq-inc/eq-session.git"
+  },
+  "homepage": "https://github.com/eq-inc/eq-session",
   "dependencies": {
     "co": ">=4.6.0",
     "lodash": ">=3.10.1",
