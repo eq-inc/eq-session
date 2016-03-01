@@ -230,12 +230,12 @@ describe('EqSession', function () {
 
                     // Get session data
                     function (ticket, done) {
-                        data.id = ticket;
                         session.getTicketSession(ticket, done);
                     },
 
                     // Check session data
                     function (result, done) {
+                        data.id = id;
                         expect(result).to.eql(data);
 
                         done();
@@ -263,12 +263,12 @@ describe('EqSession', function () {
 
                     // Get session data
                     function (ticket, done) {
-                        data.id = ticket;
                         session.getTicketSession(ticket, ['key2'], done);
                     },
 
                     // Check session data
                     function (result, done) {
+                        data.id = id;
                         expect(result).to.eql(_.pick(data, ['id', 'key2']));
 
                         done();

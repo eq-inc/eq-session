@@ -1,6 +1,6 @@
 {
   "name": "eq-session",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Session module for Eq applications",
   "author": "Kazuma Fujimaki <fujimaki@eq-inc.jp>",
   "repository": {
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "mocha": ">=2.3.3",
-    "expect.js": ">=0.3.1"
+    "expect.js": ">=0.3.1",
+    "neo-async": ">=1.7.3"
   }
 }
