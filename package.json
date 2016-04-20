@@ -1,21 +1,26 @@
 {
-  "name": "eq-session",
-  "version": "0.0.3",
-  "description": "Session module for Eq applications",
-  "author": "Kazuma Fujimaki <fujimaki@eq-inc.jp>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eq-inc/eq-session.git"
-  },
-  "homepage": "https://github.com/eq-inc/eq-session",
-  "dependencies": {
-    "co": ">=4.6.0",
-    "lodash": ">=3.10.1",
-    "mongoose": ">=4.3.7"
-  },
-  "devDependencies": {
-    "mocha": ">=2.3.3",
-    "expect.js": ">=0.3.1",
-    "neo-async": ">=1.7.3"
-  }
+    "name": "eq-session",
+    "version": "0.1.0",
+    "description": "Session module for Eq applications",
+    "homepage": "https://github.com/eq-inc/eq-session",
+    "license": "Apache-2.0",
+    "author": "Kazuma Fujimaki <fujimaki@eq-inc.jp>",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eq-inc/eq-session.git"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha ./test"
+    },
+    "dependencies": {
+        "co": ">=4.6.0",
+        "lodash": ">=4.11.1",
+        "mongoose": ">=4.4.12"
+    },
+    "devDependencies": {
+        "mocha": ">=2.4.5",
+        "expect.js": ">=0.3.1",
+        "neo-async": ">=1.8.1"
+    }
 }
