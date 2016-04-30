@@ -37,7 +37,7 @@ describe('EqSession', function () {
 
                 // Check ticket
                 function (ticket, done) {
-                    expect(new Buffer(ticket, 'base64')).to.have.length(32);
+                    expect(Buffer.from(ticket, 'base64')).to.have.length(32);
 
                     done(null, ticket);
                 },
