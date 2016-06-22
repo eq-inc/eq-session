@@ -276,6 +276,20 @@ describe('EqSession', function () {
                 ], done);
             });
         });
+
+        describe('Should not get session data', function () {
+            it('No session data found', function (done) {
+                session.getTicketSession('TICKET_NOT_FOUND', function (error, result) {
+                    if (error) {
+                        return done(error);
+                    }
+
+                    expect(result).to.be(null);
+
+                    done();
+                });
+            });
+        });
     });
 
 
