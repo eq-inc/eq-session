@@ -16,7 +16,7 @@
     "dependencies": {
         "co": ">=4.6.0",
         "lodash": ">=4.11.1",
-        "mongoose": ">=4.4.12"
+        "mongoose": "4.4.12"
     },
     "devDependencies": {
         "mocha": ">=2.4.5",
